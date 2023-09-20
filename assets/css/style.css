@@ -20,8 +20,9 @@ body {
     font-size: 48px;
 }
 
-.header h1 .seo {
-    color: #d9dcd6;
+/* Removed .header .h1 classes from declaration below, darkened the color to make the SEO stand out */
+.seo {
+    color: #8e8e8e;
 }
 
 .header nav {
@@ -32,11 +33,14 @@ body {
     font-size: 20px;
 }
 
+/* Removed
 .header nav ul {
     list-style-type: none;
 }
+*/
 
-.header nav ul li {
+/* Removed nav ul from declaration below */
+.header li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -50,11 +54,11 @@ p {
     font-size: 16px;
 }
 
+/* Removed background image property, moved it to the HTML file */
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
