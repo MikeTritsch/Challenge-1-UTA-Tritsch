@@ -50,17 +50,23 @@ a {
     text-decoration: none;
 }
 
+/* Added a hover pseudo-code to emphasize nav menu with a border radius to round out the edges */
+a:hover {
+    background-color: #8e8e8e;
+    padding: 10px;
+    border-radius: 25px;
+    
+}
+
 p {
     font-size: 16px;
 }
 
-/* Removed background image property, moved it to the HTML file */
+/* Removed background image property, moved it to the HTML file, adjusted size to more closely match the source */
 .hero {
-    height: 800px;
+    height: 900px;
     width: 100%;
     margin-bottom: 25px;
-    background-size: cover;
-    background-position: center;
 }
 
 .float-left {
