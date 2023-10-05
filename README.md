@@ -1,4 +1,4 @@
-# challenge-1-UTA-tritsch
+# Horiseon Refactor
 
 ## Description
 
